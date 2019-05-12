@@ -1,0 +1,30 @@
+.header {
+    background-color: #cb6f34;
+}
+
+
+
+.instructions {
+    background-color: blanchedalmond;
+
+}
+
+body {
+    background-repeat: no-repeat;
+    background-image: url(http://www.zingerbug.com/Backgrounds/background_images/aqua_random_spiral_swirls_background_1800x1600.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    z-index: 0;
+}
+
+.container {
+    margin-left: 10px;
+}
+
+.gemImage {
+    height: 55px;
+    margin: 10px;
+}
