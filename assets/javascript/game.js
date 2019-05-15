@@ -20,12 +20,12 @@ $("#loses").html(loses);
 
 function gameReset(){
    random =  Math.floor(Math.random() * 102) + 19;
-   $(".randomNumber").html(random);
-   var gem1 = Math.floor(Math.random() *11) + 1; 
-   var gem2 = Math.floor(Math.random() *11) + 1; 
-   var gem3 = Math.floor(Math.random() *11) + 1; 
-   var gem4 = Math.floor(Math.random() *11) + 1; 
-   var totalScore = 0;
+   $(".randomNumber").text(random);
+   gem1 = Math.floor(Math.random() *11) + 1; 
+   gem2 = Math.floor(Math.random() *11) + 1; 
+   gem3 = Math.floor(Math.random() *11) + 1; 
+   gem4 = Math.floor(Math.random() *11) + 1; 
+   totalScore = 0;
    $("#finalScore").text(totalScore);
 };
 
